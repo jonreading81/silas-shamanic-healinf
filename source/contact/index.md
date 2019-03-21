@@ -7,4 +7,4 @@ thumb_image: images/unsplash.jpg
 # Contact Details
 
 
-{% fa envelope-open lg %}&nbsp;&nbsp;[janos@email.com](mailto:janos@email.com)
+{% fa envelope-open lg %}&nbsp;&nbsp;[crimpit@gmail.com](mailto:crimpit@gmail.com)

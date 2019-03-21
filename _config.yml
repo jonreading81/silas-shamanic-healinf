@@ -83,6 +83,6 @@ menu:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: s3
-  bucket: sials-healing
-  region: 'eu-west-1'
+  type: aws-s3
+  bucket: silas-healing
+  region: 'eu-west-2'

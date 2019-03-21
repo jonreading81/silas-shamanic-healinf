@@ -1,4 +1,4 @@
-# Janos Varga Portfolio
+# Silas Healing 
 
 Static site generator using [hexo](https://hexo.io/) deployed to s3 bucket
 
