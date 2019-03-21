@@ -61,6 +61,9 @@ h1, h2, h3 {
 	font-weight: 300;
 	margin-bottom: 20px;
 }
+h1 {
+	margin-bottom: 40px;
+}
 
 .navbar-brand {
 	font-weight: 800;
@@ -174,4 +177,38 @@ h1, h2, h3 {
 
 .aplayer-info a,span{
 	font-size: 0.9rem;
+}
+
+blockquote{
+  font-size: 1.4em;
+  width:90%;
+  margin:50px auto;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #78C0A8 ;
+  line-height:1.6;
+  position: relative;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
 }
