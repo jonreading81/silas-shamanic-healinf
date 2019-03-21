@@ -10,10 +10,10 @@ form {
 button {
   color: #777;
 	background: #fff;
-  padding: 4px 12px 4px 12px;
   border: solid #777 2px;
 	transition: all 0.3s ease-in-out;
   text-decoration: none;
+	padding: 0 !important;
 }
 
 button:hover {
@@ -67,8 +67,15 @@ h1 {
 
 .navbar-brand {
 	font-weight: 800;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	letter-spacing: 0.5px;
+}
+
+
+@media only screen and (min-width: 480px) {
+	.navbar-brand {
+		font-size: 1.4rem;
+	}
 }
 
 .navbar {
